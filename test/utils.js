@@ -5,7 +5,7 @@ describe("Utils", () => {
   describe("Add", () => {
     it("Adds 2 of the same number", () => {
       const result = add(1, 1);
-      expect(result).to.equal(3);
+      expect(result).to.equal(2);
     });
 
     it("Adds 2 different numbers", () => {
